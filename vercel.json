@@ -1,3 +1,9 @@
 {
+  "functions": {
+    "api/index.js": {
+      "memory": 512,
+      "includeFiles": "db.json"
+    }
+  },
   "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
 }
